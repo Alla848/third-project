@@ -1,0 +1,44 @@
+.intro__text {
+    /* __text */
+    display: flex;
+  margin-top: 37px;
+  max-width: 690px;
+  height: 208px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  /* or 26px */}
+
+  @media screen and (min-width: 320px) and (max-width: 768px){
+    .intro__text {
+      /* __text */
+      display: flex;
+    margin-top: 37px;
+    margin-bottom: 37px;
+    width: 90%;
+    min-height: 520px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 163%;
+    /* or 26px */}
+  }
+
+  /* __text */
+
+/*position: absolute;
+width: 288px;
+height: 520px;
+left: 16px;
+top: 686px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 163%;
+/* or 26px 
+
+color: #FFFFFF; */
+

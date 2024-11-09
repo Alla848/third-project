@@ -1,0 +1,44 @@
+@import url(../block/root/root.css);
+
+@import url(../block/links/links.css);
+
+@import url(../block/header/header.css);
+@import url(../block/header/__lang/header__lang.css);
+@import url(../block/header/__lang/_en/header__lang_en);
+@import url(../block/header/__lang/_ru/header__lang_ru);
+@import url(../block/header/__place/header__place.css);
+@import url(../block/header/__place/_logo/header__place_logo.css);
+
+@import url(../block/lead/lead.css);
+@import url(../block/lead/__caption/lead__caption.css);
+@import url(../block/lead/__img/lead__img.css);
+@import url(../block/lead/__subtitle/lead__subtitle.css);
+@import url(../block/lead/__title/lead__title.css);
+
+@import url(../block/intro/intro.css);
+@import url(../block/intro/__list/intro__list);
+@import url(../block/intro/__text/intro__text.css);
+@import url(../block/intro/__title/intro__title.css);
+
+@import url(../block/photo-grid/photo-grid.css);
+@import url(../block/photo-grid/__image/photo-grid__image.css);
+
+@import url(../block/places/places.css);
+@import url(../block/places/__place/places__place.css);
+@import url(../block/places/__place/_img/places__place_img.css);
+@import url(../block/places/__place/_paragraph/places__place_paragraph.css);
+@import url(../block/places/__place/_row-1/places__place_row-1.css);
+@import url(../block/places/__place/_row-2/places__place_row-2.css);
+@import url(../block/places/__place/_row-2/_text/places__place_row-2_text.css);
+@import url(../block/places/__place/_title/places__place_title.css);
+@import url(../block/places/__place/_website/places__place_website.css);
+@import url(../block/places/__place/_website/_heading/places__place_website_heading.css);
+@import url(../block/places/__place/_website/_link/places__place_website_link.css);
+
+@import url(../block/footer/footer.css);
+@import url(../block/footer/__image/footer__image.css);
+@import url(../block/footer/__subtitle/footer__subtitle.css);
+@import url(../block/footer/__text/footer__text.css);
+@import url(../block/footer/__text/_author/footer__text_author.css);
+@import url(../block/footer/__text/_nav/footer__text_nav.css);
+@import url(../block/footer/__title/footer__title.css);

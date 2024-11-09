@@ -1,0 +1,19 @@
+.lead {
+    display: flex;
+    position: relative;
+    max-width: 984px;
+    max-height: 1051px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media screen and (min-width: 320px) and (max-width : 768px){
+      .lead {
+        display: flex;
+        position: relative;
+        width: 100%;
+        min-height: 406px;
+        flex-direction: column;
+        align-items: center;
+      }
+  }

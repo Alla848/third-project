@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+   .mem {border: 1px solid red;
+   }
+  .root {
+      max-width: 1440px;
+      font-family: 'Inter';
+      background-color: #2A2C2F;
+      color: white;
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      cursor: default;
+      margin: auto;
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 768px){
+      .root {
+        min-width: 320px;
+        max-width: 768px;
+        font-family: 'Inter';
+        background-color: #2A2C2F;
+        color: white;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: default;
+        margin: auto;
+      }
+    }

@@ -1,0 +1,6 @@
+.links {
+    color: aliceblue;
+  }
+  .links:hover {
+    cursor: pointer;
+  }

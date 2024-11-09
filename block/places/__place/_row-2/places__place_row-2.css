@@ -1,0 +1,15 @@
+.places__place_row-2 {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 768px){
+    .places__place_row-2 {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: start;
+    }
+  }

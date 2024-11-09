@@ -1,0 +1,24 @@
+.places__place_paragraph {
+    display: flex;  /* __paragraph */
+    width: 484px;
+    height: 145px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    /* or 29px */
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 768px){
+    .places__place_paragraph {
+      display: flex;  /* __paragraph */
+      width: 90%;
+      min-height: 250px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 163%;
+      margin-bottom: 20px;
+      /* or 29px */
+    }
+  }

@@ -1,0 +1,48 @@
+.places__place_title {
+    display: flex;
+    /* __title */
+    width: 440px;
+    height: 152px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    padding-bottom: 37px;
+    /*margin-right: 55px;*/
+/*or 106% */
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 768px){
+    .places__place_title {
+      display: flex;
+      /* __title */
+      width: 90%;
+      height: 20px;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 2em;
+      line-height: 1.1;
+      padding-bottom: 37px;
+      justify-content: start;
+      /*margin-right: 55px;*/
+  /*or 106% */
+    }
+  }
+
+  /* __title 
+
+position: absolute;
+width: 288px;
+height: 35px;
+left: 16px;
+top: 4182px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 35px;
+identical to box height, or 109% 
+
+color: #FFFFFF; */
+

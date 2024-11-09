@@ -1,0 +1,17 @@
+.footer__text_nav {
+    display: flex;
+    flex-direction: row;
+    height: 18px;
+    gap: 20px;
+    max-width: 610px;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 768px){
+    .footer__text_nav {
+      display: flex;
+      flex-direction: column;
+      height: 18px;
+      gap: 20px;
+      max-width: 60%;
+    }
+  }

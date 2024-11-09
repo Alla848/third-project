@@ -1,0 +1,22 @@
+.header {
+    margin-top: 28px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    width: 70%;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 768px){
+    .header {
+      margin-top: 28px;
+      display: flex;
+      position: relative;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: end;
+      width: 90%;
+      height: 42px;
+    }
+  }
